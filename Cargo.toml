@@ -1,0 +1,17 @@
+[package]
+name = "videofetch"
+version = "0.1.0"
+authors = ["Sjors Schijff"]
+description = "Simple CLI tool to fetch video urls from streaming video websites"
+repository = "https://github.com/sjorsschijff/videofetch"
+license = "GPLv3"
+
+[dependencies]
+clap = "2.20.5"
+hyper = "0.9"
+queryst = "1.0.1"
+regex = "0.2.1"
+
+[[bin]]
+name = "videofetch"
+path = "src/main.rs"
